@@ -61,7 +61,7 @@ body {
   }
 
   @each $day, $indentation in $days-of-week {
-    &--start-day-#{$day} :first-child {
+    &--started-day-#{$day} :first-child {
       margin-left: ($cell-size + $cell-gap) * $indentation;
     }
   }
